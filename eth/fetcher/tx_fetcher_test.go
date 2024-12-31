@@ -24,11 +24,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/core/txpool"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/OffchainLabs/go-ethereum/common"
+	"github.com/OffchainLabs/go-ethereum/common/mclock"
+	"github.com/OffchainLabs/go-ethereum/core/txpool"
+	"github.com/OffchainLabs/go-ethereum/core/types"
+	"github.com/OffchainLabs/go-ethereum/params"
 )
 
 var (

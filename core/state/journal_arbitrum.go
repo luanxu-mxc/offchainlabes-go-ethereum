@@ -1,8 +1,8 @@
 package state
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
+	"github.com/OffchainLabs/go-ethereum/common"
+	"github.com/OffchainLabs/go-ethereum/core/rawdb"
 )
 
 type wasmActivation struct {

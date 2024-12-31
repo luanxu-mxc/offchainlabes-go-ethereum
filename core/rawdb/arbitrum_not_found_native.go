@@ -22,8 +22,8 @@ package rawdb
 import (
 	"errors"
 
+	"github.com/OffchainLabs/go-ethereum/ethdb/memorydb"
 	"github.com/cockroachdb/pebble"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
 	"github.com/syndtr/goleveldb/leveldb"
 )
 

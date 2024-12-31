@@ -3,10 +3,10 @@ package arbitrum
 import (
 	"context"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/OffchainLabs/go-ethereum/common/hexutil"
+	"github.com/OffchainLabs/go-ethereum/core"
+	"github.com/OffchainLabs/go-ethereum/internal/ethapi"
+	"github.com/OffchainLabs/go-ethereum/rpc"
 )
 
 type TransactionArgs = ethapi.TransactionArgs

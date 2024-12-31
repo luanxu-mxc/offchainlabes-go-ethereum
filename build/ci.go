@@ -52,11 +52,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cespare/cp"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto/signify"
-	"github.com/ethereum/go-ethereum/internal/build"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/OffchainLabs/go-ethereum/common"
+	"github.com/OffchainLabs/go-ethereum/crypto/signify"
+	"github.com/OffchainLabs/go-ethereum/internal/build"
+	"github.com/OffchainLabs/go-ethereum/params"
+	
 )
 
 var (

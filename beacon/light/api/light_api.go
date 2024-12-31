@@ -26,13 +26,13 @@ import (
 	"sync"
 	"time"
 
+	"github.com/OffchainLabs/go-ethereum/beacon/merkle"
+	"github.com/OffchainLabs/go-ethereum/beacon/params"
+	"github.com/OffchainLabs/go-ethereum/beacon/types"
+	"github.com/OffchainLabs/go-ethereum/common"
+	"github.com/OffchainLabs/go-ethereum/common/hexutil"
+	"github.com/OffchainLabs/go-ethereum/log"
 	"github.com/donovanhide/eventsource"
-	"github.com/ethereum/go-ethereum/beacon/merkle"
-	"github.com/ethereum/go-ethereum/beacon/params"
-	"github.com/ethereum/go-ethereum/beacon/types"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/log"
 )
 
 var (

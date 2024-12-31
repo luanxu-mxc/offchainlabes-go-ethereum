@@ -19,7 +19,7 @@ package native
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/OffchainLabs/go-ethereum/common"
 )
 
 type arbitrumTransfer struct {
